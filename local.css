@@ -1,0 +1,58 @@
+.nav .card-img-top{
+    background:linear-gradient(
+        rgba(230, 215, 6, 0.7),
+        rgba(0, 0, 0, 0.7)
+            );
+    background-attachment:fixed;
+    
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+      
+}
+.tab-pane{
+    color: grey;
+}
+
+.b{
+    background:linear-gradient(
+    rgba(255, 228, 181 , 0.5),
+    rgba(122, 116, 105, 0.5)
+        ),
+
+ url("img/grand1.jpg");
+background-attachment:fixed;
+
+background-size: cover;
+background-position: center;
+text-align: center;
+width: 50vh;
+height: 50vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

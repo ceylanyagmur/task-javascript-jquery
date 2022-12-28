@@ -1,0 +1,494 @@
+*{
+
+
+ 
+}
+
+.header-adress .get{
+  color:#bd966f;
+}
+
+
+
+.header-adress .get:hover{
+  color:#bd966f;
+ 
+}
+
+.header-adress .nm{
+  border-color:#caa886;
+  
+}
+
+
+.header-telephone{
+  margin-left: 1%;
+}
+.header-telephone .img{
+  width:19%;
+}
+.header-adress{
+  margin-left: 10%;
+}
+.header-adress .img{
+  width:5%;
+  border-color:#caa886;
+}
+
+.header{
+  display:flex;
+  height: 10vh;
+ 
+}
+.logo{
+  width:40%;
+}
+.header-link{
+  display:flex;
+  margin-left:10%;
+
+}
+.header-instegram{
+  margin-left: 10%;
+}
+.header-instegram:hover{
+  border-radius: 50%;
+  background-color:#caa886;
+ 
+  margin-bottom:40px;
+  
+
+}
+.header-twiter{
+  margin-left:10%;
+}
+
+
+.header-twiter:hover{
+  border-radius: 50%;
+  background-color:#caa886;
+ 
+  margin-bottom:40px;
+  
+
+}
+.header-facebook{
+  margin-left:10%;
+}
+.header-facebook:hover{
+  border-radius: 50%;
+  background-color:#caa886;
+ 
+  margin-bottom:40px;
+  
+
+}
+.navbar-nav {
+  margin-left: 30%;
+  
+  
+}
+
+
+
+
+
+
+.navbar.fixed {
+ 
+  position: absolute;
+  z-index: 1;
+  position: fixed;
+ background-color: #fff;
+ 
+}
+
+
+
+.navbar {
+  
+ top: 0;
+  width: 86%;
+  margin-right: 10%;
+}
+
+.nav-link{
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-fluid .im{
+  height: 12vh;
+  margin-left: 10vh;
+  
+}
+.dropdown .dropbtn{
+  width: 90vh;
+  background-color: #bd966f;
+  
+}
+
+  
+.carousel-inner{
+  height: 500px;
+  object-fit: cover;
+}
+.card-body{
+  margin-left: 40%;
+}
+.sectionArea{
+  margin-top:10% ;
+}
+
+#paralax{
+    
+  
+  background-image: url("img/grand1.jpg");
+  
+  background-attachment:fixed;
+background-size: cover;
+background-position: center;
+text-align: center;
+}
+
+#paralax p{
+  color: #fff;
+    
+}
+#paralax h3{
+  color: #fff;
+    
+}
+
+#paralax a{
+  margin-left:45%;
+    
+}
+.txt{
+  margin-right: 10%;
+  background-color: #fff;
+}
+
+.d-flex{
+  margin-left: 7%;
+  margin-top: 3%;
+}
+
+ 
+ .carousel  .carousel-inner{
+  
+
+  background:linear-gradient(
+    rgba(230, 215, 6, 0.7),
+    rgba(0, 0, 0, 0.7)
+        ),
+
+ url("img/grand1.jpg");
+background-attachment:fixed;
+
+background-size: cover;
+background-position: center;
+text-align: center;
+
+  
+}
+
+
+
+
+.card-bodyy{
+  background-color: #fff;
+ 
+  margin-left: 15%;
+  margin-top: 7px;
+  width: 70%;
+  
+  
+}
+
+
+
+
+
+
+.form{
+  margin-top: 10%;
+  display: flex;
+}
+
+
+
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ccc;
+  
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  
+  border-top: none;
+}
+
+
+
+
+.container .t{
+  background:url("img/grand1.jpg");
+background-attachment:fixed;
+height: 50vh;
+background-size: cover;
+background-position: center;
+text-align: center;
+
+}
+
+
+
+
+color: #bd966f;
+
+
+
+
+
+
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+
+
+
+
+
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #bd966f  ;
+  min-width: 260px;
+  height: 200px;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.dropdown-content .l{
+  background-color: #040807;
+  color: #fff;
+  margin-left: 10vh;
+  margin-top: 1vh;
+ 
+}
+.btn{
+  text-decoration: none;
+  outline: none;
+}
+
+/* Links inside the dropdown */
+.dropdown-content .m {
+  margin-top: 1vh;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 40vh;
+ 
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #bd966f;}
+
+
+
+
+
+
+
+.collapse  li a:hover {
+  color: #BF634E;
+  text-decoration: underline;
+}
+.collapse{
+  color: #0b0000;
+}
+
+
+.list-group .list-group-item{
+  color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form .l{
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav-item .nav-link{
+  color: #040807;
+}
+
+
+
+.nav .card-img-top{
+  background:linear-gradient(
+      rgba(230, 215, 6, 0.7),
+      rgba(0, 0, 0, 0.7)
+          );
+  background-attachment:fixed;
+  
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+    
+}
+.tab-pane{
+  color: grey;
+}
+
+.b{
+  margin-top: 5vh;
+  background:linear-gradient(
+  rgba(255, 228, 181 , 0.5),
+  rgba(122, 116, 105, 0.5)
+      ),
+
+url("img/grand1.jpg");
+background-attachment:fixed;
+
+background-size: cover;
+background-position: center;
+text-align: center;
+width: 50vh;
+height: 50vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+  .btn-lg {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo {
+    font-size: 150px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

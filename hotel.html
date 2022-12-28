@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <Link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+   
+    <title style="color: #fff;">Grand Hotel</title>
+</head>
+<body style="background-color:#262a32;">
+  <div class="container" style="margin-top:2%" >
+    <div class="header" >
+        <div class="header-telephone">
+    
+   <img src="node_modules/bootstrap-icons/icons/telephone.svg" alt=""  class="img" >
+
+   CALL US<br/>
+   <p style="color: #fff;">+903423256565</p>
+   
+</div>
+<div class="header-adress">
+    
+  <img src="node_modules/bootstrap-icons/icons/geo-alt.svg" alt=""  class="img" >
+
+  ADDRESS<br/>
+      
+      <p style="color: #fff;">Ali Fuat Cebesoy Bulvarı No: 32 27090 Gaziantep / TÜRKİYE </p>   
+      <a href="https://www.instagram.com/grandgaziantep/" class="get">GET DİRECTİON</a>                    
+   </div>
+    
+    <div class="header-link">
+      <div class="header-instegram">
+      <a href="https://www.instagram.com/grandgaziantep/" ><img src="node_modules/bootstrap-icons/icons/instagram.svg" alt=""></a>
+    </div>
+    <div class="header-twiter">
+      <a href="mailto:%20info@ghg.com.tr"><img src="node_modules/bootstrap-icons/icons/twitch.svg" alt="" ></a>
+   
+    </div>
+    <div class="header-facebook">
+      <a href="https://www.instagram.com/grandgaziantep/" ><img src="node_modules/bootstrap-icons/icons/facebook.svg" alt="" ></a>
+    </div>
+      </div>
+    </div>
+    </div>
+    
+
+    <div class="container" style="background-color: #fff; margin-top: 20px;">
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid" >
+            <a class="navbar-brand" href="HOME"><img src="img/grandlogo.jpg" alt="" class="im"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"   style="background-color: #bd966f;">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link "  href="index.html"  >HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="hotel.html">HOTEL</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="room&rates.html">ROOM & RATES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="specialoffers.html">SPECIAL OFFERS</a>
+                </li><li class="nav-item">
+                  <a class="nav-link" href="location.html">LOCATİON</a>
+                </li>
+                <li class="dropdown dropdown" >
+                  <a class="dropbtn dropdown-toggle" href="booknow.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    BOOK NOW
+                  </a>
+                  <div class="dropdown-content"  >
+                   
+                      <input type="date" placeholder="ARRIVAL" class="m">
+                     
+                      
+                      <input type="date" placeholder="DEPERTURE" class="m">
+                     
+                       <select>
+                        
+                        <option>ADULTS</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                       </select>
+                     
+                     
+                       <select>
+                        
+                       
+                        <option>KIDS</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                     
+                       </select>
+                      <a href="booknow.html" type="submit" value="CHECK AVAILABILITY" class="l">CHECK AVAILABILITY</a>
+                    </div>
+                  </ul>
+                </li>
+              </div>
+            </div>
+          </div>
+          
+        </nav>
+       
+      </div>
+      
+
+
+<div class="container">
+
+      <div class="t">  
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb"    class="top">
+        
+        <h3 class="mt-0" style="margin-top:20%; color: aliceblue;" >Hotel</h3>
+        <div class="divider divider-primary divider-small my-3" style="width: 4%;  margin-left: 48%; border-bottom:2px solid #fff; ">
+           
+        </div>
+        <ol class="breadcrumb"  style="margin-left: 45%;">
+           
+          <li class="breadcrumb-item" ><a href="index.html">Home</a></li>
+          
+          <li class="breadcrumb-item active" aria-current="page"   >Library</li>
+        </ol>
+    
+      </nav>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="container" style="background-color: #fff;">
+
+    <div class="d-flex align-items-start">
+      <div class="nav flex-column me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
+        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+        <button class="nav-link" id="v-pills-fa-tab" data-bs-toggle="pill" data-bs-target="#v-pills-fa" type="button" role="tab" aria-controls="v-pills-fa" aria-selected="false">FAQ'S</button>
+        <div class="b">
+          <h2 style="color: #fff;">VALENTİNE'S DAY</h2>
+          <a href=""><button type="button" class="btn " style="background-color: #fff; margin-top: 29vh;"><h4>Make a Reservation</h4></button></a>
+          
+         
+        </div>
+      </div>
+      <div class="tab-content" id="v-pills-tabContent">
+       
+        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+          <div>
+            <h2 class="mt-0"  style="color:black;">Overview</h2>
+    <div class="divider divider-primary divider-small my-3"  >
+      <p class=""  style="border-bottom:4px solid #bd966f; width: 12%;"></p>
+          </div>
+          
+          <p class="lh-1"><h5>This is a long paragraph written to show how the line-height of an element is affected by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be customized as needed with our utility API.</h5></p>
+          <p class="lh-1">This is a long paragraph written to show how the line-height of an element is affected by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be customized as needed with our utility API.</p>
+          <div class="row">
+            <div class="col-lg-6">
+              <p class="lh-1 ">
+                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices malesuada ante quis pharetra. Nullam non bibendum dolor. Ut vel turpis accumsan, efficitur dolor fermentum, tincidunt metus ut vel turpis accumsan, efficitur dolor fermentum metus ut vel turpis accumsan.</h6></p>
+                 <p class="lh-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices malesuada ante quis pharetra. Nullam non bibendum dolor. Ut vel turpis accumsan, efficitur dolor fermentum, tincidunt metus ut vel turpis accumsan, efficitur dolor fermentum metus ut vel turpis accumsan.</p>
+            </div>
+          
+            <div class="col-lg-6">
+  
+              <div class="container">
+                <div class="section">
+                
+                 
+                  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner" style="width: 55vh; height: 40vh;">
+                      <div class="carousel-item active">
+                        <img src="img/grand1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/grand1.jpg" class="d-block w-100" alt="...">
+                       
+                      </div>
+                      
+                    </div>
+                
+                
+                
+                  
+                
+                
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                     <!-- <span class="carousel-control-prev-icon" aria-hidden="true"   style="width: 10%; height: auto;"></span>-->
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                     <!--<span class="carousel-control-next-icon" aria-hidden="true"></span>--> 
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                 
+                
+                
+                
+                   
+                
+                  </div>
+                   
+                </div>  
+  
+  
+  
+  
+  
+  
+                </div>
+                </div>
+             
+          </div>
+          
+  
+  
+  
+  
+  
+  
+  
+  
+          <div class="row mt-4 pt-2" style="color: black;" >
+            <div class="col-lg-4" >
+             <!-- <div class="list list-icons list-primary text-uppercase font-weight-bold text-color-dark text-2"  >-->
+                <div class="ı" style="display: flex;">
+                  
+                 
+                  <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10 " alt="..." >
+                  24 ROOMS, 4 LUXURY SUITES
+                </div>
+              </br>
+                <div class="ı" style="display: flex;">
+                  
+                 
+                  <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."  >
+                  24 ROOMS, 4 LUXURY SUITES
+                </div>
+              </br>
+                <div class="ı" style="display: flex;">
+                  
+                 
+                  <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."  >
+                  24 ROOMS, 4 LUXURY SUITES
+                </div>
+              </br>
+                  
+                 
+                 
+             <!--</div>-->  
+          </div>
+          <div class="col-lg-4" >
+            <!-- <div class="list list-icons list-primary text-uppercase font-weight-bold text-color-dark text-2"  >-->
+               <div class="ı" style="display: flex;">
+                 
+                
+                 <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."  >
+                 24 ROOMS, 4 LUXURY SUITES
+               </div>
+              </br>
+               <div class="ı" style="display: flex;">
+                 
+                
+                 <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."  >
+                 24 ROOMS, 4 LUXURY SUITES
+               </div>
+              </br>
+               <div class="ı" style="display: flex;">
+                 
+                
+                 <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."  >
+                 24 ROOMS, 4 LUXURY SUITES
+               </div>
+              </br>
+          </div>
+          <div class="col-lg-4" >
+            <!-- <div class="list list-icons list-primary text-uppercase font-weight-bold text-color-dark text-2"  >-->
+               <div class="ı" style="display: flex;">
+                 
+                
+                 <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."  >
+                 24 ROOMS, 4 LUXURY SUITES
+               </div>
+              </br>
+               <div class="ı" style="display: flex;">
+                 
+                
+                 <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."  >
+                 24 ROOMS, 4 LUXURY SUITES
+               </div>
+              </br>
+               <div class="ı"style="display: flex;">
+                 
+                
+                 <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."  >
+                 24 ROOMS, 4 LUXURY SUITES
+               </div>
+              </br>
+        </div>
+  
+      </div>
+  
+  
+         
+  
+  
+  
+  
+      <div class="row mt-4 pt-2"  style="color: black;">
+        <h1 >Complimentary Attractions</h1>
+        <div class="col-lg-6" >
+         <!-- <div class="list list-icons list-primary text-uppercase font-weight-bold text-color-dark text-2"  >-->
+            <div class="ı"style="display: flex;" >
+              
+             
+              <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."   >
+              FUSCE SIT AMET ORCI QUIS ARCU VESTIBULUM VESTIBULUM
+            </div>
+          </br>
+            <div class="ı"style="display: flex;">
+              
+             
+              <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."  >
+              ORCI QUIS ARCU VESTIBULUM VESTIBULUM.
+            </div>
+          </br>
+            <div class="ı"style="display: flex;">
+            
+             
+              <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."  >
+              QUIS ARCU VESTIBULUM VESTIBULUM.
+            </div>
+          </br>
+              
+             
+             
+         <!--</div>-->  
+      </div>
+      <div class="col-lg-6" >
+        <!-- <div class="list list-icons list-primary text-uppercase font-weight-bold text-color-dark text-2"  >-->
+          
+           <div class="ı" style="display: flex;">
+             
+            
+             <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."  >
+             AMET ORCI QUIS ARCU VESTIBULUM VESTIBULUM.
+           </div>
+          </br>
+           <div class="ı" style="display: flex;">
+           
+            
+             <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."   >
+             FUSCE SIT AMET ORCI QUIS ARCU VESTIBULUM VESTIBULUM.
+           </div>
+          </br>
+           <div class="ı" style="display: flex;">
+             
+            
+             <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."  >
+             24 ROOMS, 4 LUXURY SUITES
+           </div>
+          </br>
+      </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      </div>
+  
+  
+  
+  
+  
+         
+        </div>
+  
+  
+        </div>
+      
+      
+        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+          <div>
+            <h2 class="mt-0"  style="color:black;">Overview</h2>
+    <div class="divider divider-primary divider-small my-3"  >
+      <p class=""  style="border-bottom:4px solid #bd966f; width: 12%;"></p>
+          </div>
+          
+          <p class="lh-1"><h5>This is a long paragraph written to show how the line-height of an element is affected by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be customized as needed with our utility API.</h5></p>
+          <p class="lh-1">This is a long paragraph written to show how the line-height of an element is affected by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be customized as needed with our utility API.</p>
+          
+          </div>
+  
+  
+  
+  
+  
+  
+          <div class="row mt-4 pt-2"  style="color: black;">
+            <h3 >Complimentary Attractions</h3>
+            <div class="col-lg-6" >
+             <!-- <div class="list list-icons list-primary text-uppercase font-weight-bold text-color-dark text-2"  >-->
+                <div class="ı"style="display: flex;" >
+                  
+                 
+                  <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."   >
+                    FUSCE SIT AMET ORCI QUIS ARCU VESTIBULUM VESTIBULUM.
+                </div>
+              </br>
+                <div class="ı"style="display: flex;">
+                  
+                 
+                  <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."  >
+                  ORCI QUIS ARCU VESTIBULUM VESTIBULUM.
+                </div>
+              </br>
+                <div class="ı"style="display: flex;">
+                
+                 
+                  <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."  >
+                  QUIS ARCU VESTIBULUM VESTIBULUM.
+                </div>
+              </br>
+                  
+                 
+                 
+             <!--</div>-->  
+          </div>
+          <div class="col-lg-6" >
+            <!-- <div class="list list-icons list-primary text-uppercase font-weight-bold text-color-dark text-2"  >-->
+              
+               <div class="ı" style="display: flex;">
+                 
+                
+                 <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."  >
+                 AMET ORCI QUIS ARCU VESTIBULUM VESTIBULUM.
+               </div>
+              </br>
+               <div class="ı" style="display: flex;">
+               
+                
+                 <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."   >
+                 FUSCE SIT AMET ORCI QUIS ARCU VESTIBULUM VESTIBULUM
+               </div>
+              </br>
+               <div class="ı" style="display: flex;">
+                 
+                
+                 <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."  >
+                 ORCI QUIS ARCU VESTIBULUM VESTIBULUM.
+               </div>
+              </br>
+          </div>
+          
+      
+      
+      
+      
+          <div class="row mt-4 pt-2"  style="color: black;">
+            <h3 >Amenities</h3>
+            <div class="col-lg-6" >
+             <!-- <div class="list list-icons list-primary text-uppercase font-weight-bold text-color-dark text-2"  >-->
+                <div class="ı"style="display: flex;" >
+                  
+                 
+                  <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."   >
+                    FUSCE SIT AMET ORCI QUIS ARCU VESTIBULUM VESTIBULUM.
+                </div>
+              </br>
+                <div class="ı"style="display: flex;">
+                  
+                 
+                  <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."  >
+                  ORCI QUIS ARCU VESTIBULUM VESTIBULUM.
+                </div>
+              </br>
+                <div class="ı"style="display: flex;">
+                
+                 
+                  <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."  >
+                  QUIS ARCU VESTIBULUM VESTIBULUM.
+                </div>
+              </br>
+                  
+                 
+                 
+             <!--</div>-->  
+          </div>
+          <div class="col-lg-6" >
+            <!-- <div class="list list-icons list-primary text-uppercase font-weight-bold text-color-dark text-2"  >-->
+              
+               <div class="ı" style="display: flex;">
+                 
+                
+                 <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."  >
+                 AMET ORCI QUIS ARCU VESTIBULUM VESTIBULUM.
+               </div>
+              </br>
+               <div class="ı" style="display: flex;">
+               
+                
+                 <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."   >
+                 FUSCE SIT AMET ORCI QUIS ARCU VESTIBULUM VESTIBULUM
+               </div>
+              </br>
+               <div class="ı" style="display: flex;">
+                 
+                
+                 <img src="node_modules/bootstrap-icons/icons/check-lg.svg" class="d-block w-10" alt="..."  >
+                 ORCI QUIS ARCU VESTIBULUM VESTIBULUM.
+               </div>
+              </br>
+          </div>
+          
+      
+      
+      
+      
+          </div>
+      
+  
+  
+  
+          </div>
+        </div>
+      
+  
+        <div class="tab-pane fade" id="v-pills-fa" role="tabpanel" aria-labelledby="v-pills-fa-tab" tabindex="0">
+  
+  
+  
+  
+  <h2 class="mt-0"  style="color:black;">Overview</h2>
+  <div class="divider divider-primary divider-small my-3"  >
+    <p class=""  style="border-bottom:4px solid #bd966f; width: 12%;"></p>
+        </div>
+        
+        <p class="lh-1"><h5>This is a long paragraph written to show how the line-height of an element is affected by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be customized as needed with our utility API.</h5></p>
+        <p class="lh-1">This is a long paragraph written to show how the line-height of an element is affected by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be customized as needed with our utility API.</p>
+  
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Curabitur eget leo at velit imperdiet vague iaculis vitaes?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          At imperdiet vague iaculis vitaes?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Leo at velit imperdiet vague iaculis vitaes?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingfor">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefor" aria-expanded="false" aria-controls="collapsefor">
+          Leo at velit imperdiet vague iaculis vitaes?
+        </button>
+      </h2>
+      <div id="collapsefor" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingy">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsey" aria-expanded="false" aria-controls="collapsey">
+          Leo at velit imperdiet vague iaculis vitaes?
+        </button>
+      </h2>
+      <div id="collapsey" class="accordion-collapse collapse" aria-labelledby="headingy" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  ------
+  
+  
+  
+  
+  
+        </div>
+             
+  
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="container">
+  <div class="form">
+    <div class="m" style="margin-left: 10%;">
+      <p>SIGN UP NOW FOR</p>
+      <h3 style="color: #fff;">Exclusive Special Offers:
+      </h3>
+    </div>
+  <div class="row ">
+    
+    <div class="col">
+      
+    
+      <input type="text" class="ç" placeholder="First name" aria-label="First name" style="margin-top: 12%; ">
+    </div>
+    <div class="col">
+      <label for="exampleInputEmail1" class="form-label"  ></label>
+      <input type="email" class="ç" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address" style="margin-right: 89%;">
+     
+   
+   
+    </div>
+    
+  </div>
+  <div class="l">
+  <a href="" class="btn" style="background-color: hsl(0, 33%, 96%); display:flex; margin-left: 20%; "><h6>SUBSCRIBE NOW</h6></a>
+  </div>
+  </div>
+  
+  
+  
+  
+  <div class="footer" style="background-color:#BF634E ; display: flex; margin-top:6%; color: #fff;"  >
+    
+    <div class="footer-telephone" style="margin-left:10%; margin-top:6%;  height: 20vh;">
+  
+  <img src="node_modules/bootstrap-icons/icons/telephone.svg" alt=""  class="img "  style="width: 20%;">
+  
+  CALL US<br/>
+  +903423256565
+  
+  </div>
+  <div class="footer-adress" style="margin-left:10%;  margin-top:6%;">
+  
+  <img src="node_modules/bootstrap-icons/icons/geo-alt.svg" alt=""  class="img" style="width: 5%;" >
+  
+  ADDRESS<br/>
+  
+  Ali Fuat Cebesoy Bulvarı No: 32 27090 Gaziantep / TÜRKİYE    
+  <a href="https://www.instagram.com/grandgaziantep/" class="get" style="color: #fff;">GET DİRECTİON</a>                    
+  </div>
+  <div class="footer-link" style="display: flex; margin-left: 10%;  margin-top:6%;">
+  <div class="footer-instegram"  >
+  <a href="https://www.instagram.com/grandgaziantep/" ><img src="node_modules/bootstrap-icons/icons/instagram.svg" alt="" ></a>
+  </div>
+  <div class="footer-twiter" >
+  <a href="mailto:%20info@ghg.com.tr"><img src="node_modules/bootstrap-icons/icons/twitch.svg" alt="" ></a>
+  
+  </div>
+  <div class="footer-facebook" >
+  <a href="https://www.instagram.com/grandgaziantep/" ><img src="node_modules/bootstrap-icons/icons/facebook.svg" alt="" ></a>
+  </div>
+  </div>
+  </div>
+  
+  <ul style="display: flex;">
+    <li class="nav-item">
+      <a class="nav-link" href="HOTEL"style="color: #fff;">HOTEL</a>
+    </li>
+    <li class="nav-item" style="margin-left: 5%;">
+      <a class="nav-link" href="ROOM & RATES"style="color: #fff;">ROOM & RATES</a>
+    </li>
+    <li class="nav-item"style="margin-left: 5%;">
+      <a class="nav-link" href="SPECIAL OFFERS"style="color: #fff;">SPECIAL OFFERS</a>
+    
+  </ul>
+  
+  
+  </div>
+  </div>
+  
+  
+</div>
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    
+<script src="script.js"></script>
+</body>
+</html>
